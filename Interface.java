@@ -20,7 +20,7 @@ public class Interface {
 		
 		boolean run = true;
 		
-		while (run) {
+		while (run) { // menu loop
 			run = false;
 			System.out.println("Choose an Option:\n1: Grid from file\n2: Random Grid: ");
 			int option = scan.nextInt();
